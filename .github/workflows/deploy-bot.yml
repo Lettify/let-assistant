@@ -19,7 +19,7 @@ jobs:
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-            cd /root/BOTS/bot-let-assistant
+            cd /root/BOTS/let-assistant
             git pull origin main
 
             npm install
